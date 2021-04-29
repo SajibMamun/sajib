@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#E8E0E0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create an Account"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight=".5"
+    android:text="User name"
+    android:textAllCaps="true"
+    android:textStyle="bold"
+    android:textSize="15sp"
+
+    />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:text="Your e-mail"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:orientation="horizontal"
+        >
+      <EditText
+          android:id="@+id/usernameid"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight=".5"
+          android:inputType="textPersonName"
+          android:background="@drawable/edit_bg"
+          android:textSize="20sp"
+          />
+        <EditText
+            android:id="@+id/emailid"
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edit_bg"
+            android:textSize="20sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:text="create password"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="15sp"
+
+
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:text="Your age"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:id="@+id/createpasswordid"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:inputType="textPassword"
+            android:background="@drawable/edit_bg"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/ageid"
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:inputType="number"
+            android:background="@drawable/edit_bg"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I accept tearms and conditons and privacy policy"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/getstartedid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get started"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:gravity="center"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    >
+    <Button
+        android:id="@+id/twitterid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".3"
+        android:text="twitter"
+        android:textAllCaps="true"
+        />
+    <Button
+        android:id="@+id/facebookid"
+        android:layout_marginLeft="5dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".3"
+        android:text="Facebook"
+        android:textAllCaps="true"
+        />
+    <Button
+        android:id="@+id/whatsappid"
+        android:layout_marginLeft="5dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".3"
+        android:text="whatsapp"
+        android:textAllCaps="true"
+        />
+</LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
